@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminpanelComponent } from './components/adminpanel/adminpanel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DashboardpanelComponent } from './components/dashboardpanel/dashboardpanel.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminpanelComponent
+    AdminpanelComponent,
+    DashboardpanelComponent
   ],
   imports: [
     BrowserModule,
