@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    height: 100%;
+}
+
+.leftpanels {
+    width: 13%;
+
+}
+
+.header {
+    background-color: rgb(24, 191, 135);
+}
+
+.menu {
+    background-color: rgba(41, 41, 45, 0.619);
+    height: 100%;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.usersbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usersbutton:hover {
+    background-color: rgb(167, 166, 168);
+}
+
+.postbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.postbutton:hover {
+    background-color: rgb(167, 166, 168);
+}
